@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light Theme */
+  --background: 210 20% 98%;
+  --foreground: 222 47% 11%;
+
+  --card: 0 0% 100%;
+  --surface: 0 0% 100%;
+  --surface-hover: 210 20% 96%;
+
+  --border: 214 32% 91%;
+
+  --muted: 210 20% 96%;
+  --muted-foreground: 215 16% 47%;
+
+  /* Brand */
+  --primary: 217 91% 60%;
+  --primary-foreground: 0 0% 100%;
+
+  --accent: 217 91% 60%;
+  --accent-foreground: 0 0% 100%;
+
+  --success: 142 71% 45%;
+  --warning: 38 92% 55%;
+  --danger: 0 84% 60%;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+  --font-display: "Sora", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: hsl(var(--primary) / 0.2);
+}
+
+:focus-visible {
+  outline: 2px solid hsl(var(--primary));
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+/* Apple-style Liquid Glass */
+
+.liquid {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+
+  border: 1px solid rgba(255, 255, 255, 0.55);
+
+  box-shadow:
+    0 8px 30px rgba(15, 23, 42, 0.08),
+    inset 0 1px rgba(255, 255, 255, 0.65);
+
+  transition: all 0.35s ease;
+}
+
+.liquid:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 14px 40px rgba(15, 23, 42, 0.12),
+    inset 0 1px rgba(255, 255, 255, 0.75);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+
+  background-size: 48px 48px;
+}
