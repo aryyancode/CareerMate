@@ -2,20 +2,9 @@
 
 import { motion, animate } from "framer-motion";
 import { useEffect, useState } from "react";
-import {
-  FileText,
-  Target,
-} from "lucide-react";
+import { FileText, Target } from "lucide-react";
 
-const lines = [
-  "w-full",
-  "w-5/6",
-  "w-3/4",
-  "w-full",
-  "w-2/3",
-  "w-4/5",
-  "w-1/2",
-];
+const lines = ["w-full", "w-5/6", "w-3/4", "w-full", "w-2/3", "w-4/5", "w-1/2"];
 
 export function ResumePreview() {
   const [score, setScore] = useState(0);
@@ -41,7 +30,7 @@ export function ResumePreview() {
 
             <div>
               <h3 className="font-semibold text-slate-900">
-                MatchCV Analysis
+                CareerMate Analysis
               </h3>
 
               <p className="text-sm text-slate-500">
@@ -77,9 +66,7 @@ export function ResumePreview() {
         <div className="mt-8 rounded-3xl bg-slate-50 p-5">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm text-slate-500">
-                Overall ATS Score
-              </p>
+              <p className="text-sm text-slate-500">Overall ATS Score</p>
 
               <h2 className="mt-1 text-4xl font-bold text-slate-900">
                 {score}

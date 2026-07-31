@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MatchCV — Build a Resume Recruiters Want",
+  title: "CareerMate — Build a Resume Recruiters Want",
   description:
     "AI-powered ATS resume analysis. Get your ATS score, find missing keywords, and rewrite weak bullet points in seconds.",
 };

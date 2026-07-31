@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 MatchCV
+# 🚀 CareerMate
 
 ### AI-Powered Resume Analyzer & ATS Optimizer
 
@@ -20,7 +20,7 @@ Analyze resumes, compare them with job descriptions, calculate ATS scores, ident
 
 ## 📖 Overview
 
-MatchCV is an AI-powered web application that helps job seekers improve their resumes using Google Gemini AI.
+CareerMate is an AI-powered web application that helps job seekers improve their resumes using Google Gemini AI.
 
 Users can upload a resume, receive an ATS score, compare it against a job description, discover missing keywords, and get personalized AI suggestions to improve their chances of getting shortlisted.
 
@@ -46,16 +46,19 @@ Users can upload a resume, receive an ATS score, compare it against a job descri
 # 🛠️ Tech Stack
 
 ### Frontend
+
 - **Next.js 15** — React framework for production applications
 - **TypeScript** — Type-safe development
 - **Tailwind CSS** — Utility-first styling
 - **Framer Motion** — UI animations
 
 ### AI & Processing
+
 - **Google Gemini AI** — Resume analysis and suggestions
 - **PDF.js** — Resume text extraction
 
 ### Tools
+
 - **ESLint** — Code quality
 - **Git & GitHub** — Version control
 - **Vercel** — Deployment
@@ -65,7 +68,7 @@ Users can upload a resume, receive an ATS score, compare it against a job descri
 # 📂 Project Structure
 
 ```
-MatchCV/
+CareerMate/
 │
 ├── app/
 │   ├── analyze/          # Resume analysis page
@@ -89,22 +92,23 @@ MatchCV/
 ├── tailwind.config.ts
 └── tsconfig.json
 ```
+
 ---
 
 # 🚀 Getting Started
 
-Follow these steps to run MatchCV locally.
+Follow these steps to run CareerMate locally.
 
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/aryyancode/MatchCV.git
+git clone https://github.com/aryyancode/CareerMate.git
 ```
 
 ## 2. Navigate into the project
 
 ```bash
-cd MatchCV
+cd CareerMate
 ```
 
 ## 3. Install dependencies
@@ -156,13 +160,11 @@ Coming soon.
 - [x] Resume analysis dashboard
 - [x] GitHub project setup
 
-
 ### 🚧 In Progress
 
 - [ ] Resume vs Job Description matching
 - [ ] Missing keyword detection
 - [ ] Section-wise resume scoring
-
 
 ### 🔮 Future Plans
 
@@ -179,13 +181,12 @@ Coming soon.
 
 Contributions, suggestions, and feature requests are welcome.
 
-If you would like to improve MatchCV:
+If you would like to improve CareerMate:
 
 1. Fork the repository
 2. Create a new branch
 3. Make your changes
 4. Submit a pull request
-
 
 ---
 

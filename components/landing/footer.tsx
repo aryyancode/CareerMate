@@ -18,7 +18,7 @@ export function Footer() {
 
               <div>
                 <h2 className="font-display text-xl font-bold text-slate-900">
-                  MatchCV
+                  CareerMate
                 </h2>
 
                 <p className="-mt-1 text-xs text-slate-500">
@@ -67,7 +67,7 @@ export function Footer() {
 
       <div className="border-t border-slate-200 py-6">
         <div className="container flex flex-col items-center justify-between gap-3 text-sm text-slate-500 md:flex-row">
-          <p>© {new Date().getFullYear()} MatchCV. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} CareerMate. All rights reserved.</p>
 
           <p>Built with Next.js • TypeScript • Gemini AI</p>
         </div>
