@@ -2,6 +2,10 @@
 
 # 🚀 CareerMate
 
+## 🌐 Live Demo
+
+👉 https://careermate-dflf8f5t5-aryyancode1.vercel.app/
+
 ### AI-Powered Resume Analyzer & ATS Optimizer
 
 Analyze resumes, compare them with job descriptions, calculate ATS scores, identify missing keywords, and receive AI-powered improvement suggestions.
