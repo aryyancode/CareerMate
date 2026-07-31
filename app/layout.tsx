@@ -23,7 +23,11 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "CareerMate — Build a Resume Recruiters Want",
   description:
-    "AI-powered ATS resume analysis. Get your ATS score, find missing keywords, and rewrite weak bullet points in seconds.",
+    "AI-powered resume analyzer that calculates ATS scores, analyzes resumes, and provides personalized improvement suggestions using Google Gemini AI.",
+
+  verification: {
+    google: "N54wbk0ODlRC5-JKg_E7I40RTI8Hx3UICWm0W683wiE",
+  },
 };
 
 export default function RootLayout({
